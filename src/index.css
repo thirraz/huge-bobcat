@@ -1,0 +1,48 @@
+:root {
+	--color-white: #fbfbfb;
+	--color-black: #1f1f1f;
+	--color-blue: #21618f;
+	--color-paragraph-black: #2c2c2c;
+	--color-paragraph-white: #f1f1f1;
+	--bg-button-hover: #363636;
+
+	--padding-desktop: min(3vw, 3rem);
+
+	/* cards*/
+	--shadow-card: 0px 6px 11.9px hsl(0, 100%, 50%, 40%);
+
+	/* testimonials */
+	--bg-testimonial: #2b2b2b;
+	--color-user-name: #f0f0f0;
+	--color-testimonial: #f1f1f1;
+	--color-role: #d4d4d4;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Inter, sans-serif;
+	min-height: 100dvh;
+	background: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-wrap: balance;
+}
+
+p {
+	text-wrap: pretty;
+}
