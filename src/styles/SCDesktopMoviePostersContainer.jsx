@@ -4,6 +4,6 @@ export const SCDesktopMoviePostersContainer = styled.div`
 	/* border: 2px solid green; */
 	max-width: min-content;
 	display: flex;
-	gap: 1.5rem;
-	transform: rotate(20deg) translateX(8%);
+	gap: 1.7rem;
+	transform: rotate(20deg) translateX(10%);
 `

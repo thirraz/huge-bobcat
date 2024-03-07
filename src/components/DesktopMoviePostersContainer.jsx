@@ -5,39 +5,6 @@ import { SCMovieColumn } from "../styles/SCMovieColumn"
 import DesktopMoviePoster from "./DesktopMoviePoster"
 import { useEffect, useRef } from "react"
 
-/* const moviePostersColumnOne = [
-	"url('/1.jpg')",
-	"url('/2.jpg')",
-	"url('/3.jpg')",
-	"url('/4.jpg')",
-	"url('/5.jpg')",
-	"url('/6.jpg')"
-]
-const moviePostersColumnTwo = [
-	"url('/6.jpg')",
-	"url('/5.jpg')",
-	"url('/1.jpg')",
-	"url('/2.jpg')",
-	"url('/4.jpg')",
-	"url('/3.jpg')"
-]
-const moviePostersColumnThree = [
-	"url('/5.jpg')",
-	"url('/1.jpg')",
-	"url('/4.jpg')",
-	"url('/3.jpg')",
-	"url('/2.jpg')",
-	"url('/6.jpg')"
-]
-const moviePostersColumnFour = [
-	"url('/2.jpg')",
-	"url('/3.jpg')",
-	"url('/6.jpg')",
-	"url('/4.jpg')",
-	"url('/1.jpg')",
-	"url('/5.jpg')"
-] */
-
 export default function DesktopMoviePostersContainer() {
 	const scrollerRef = useRef()
 	const firstColRef = useRef()
