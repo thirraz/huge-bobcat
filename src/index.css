@@ -18,6 +18,16 @@
 	--color-role: #d4d4d4;
 }
 
+::selection {
+	background: var(--color-black);
+	color: var(--color-white);
+}
+
+::-moz-selection {
+	background: var(--color-black);
+	color: var(--color-white);
+}
+
 *,
 *::before,
 *::after {
