@@ -37,8 +37,8 @@ const allTestimonials = [
 export default function Testimonials() {
 	return (
 		<SCTestimonials>
-			<SCHeading fontsize="clamp(1.8rem, 5vw, 4.7rem)" as="h2">
-				Our customers are important to us
+			<SCHeading fontsize="clamp(2.5rem, 5vw, 4.7rem)" as="h2">
+				We love our customers
 			</SCHeading>
 			<SCTestimonialsContainer>
 				{allTestimonials.map(

@@ -26,8 +26,12 @@ const stepsData = [
 export default function Steps() {
 	return (
 		<SCSteps>
-			<SCHeading fontsize="clamp(1.8rem, 5vw, 4.7rem)" as="h2">
-				Don&apos;t waste more time
+			<SCHeading
+				fontsize="clamp(2.5rem, 5vw, 4.7rem)"
+				as="h2"
+				style={{ textAlign: "center" }}
+			>
+				It&apos;s easy to start!
 			</SCHeading>
 
 			<SCStepsContainer>

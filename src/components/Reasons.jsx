@@ -30,7 +30,7 @@ const reasonsData = [
 export default function Reasons() {
 	return (
 		<SCReasons>
-			<SCHeading fontsize="clamp(1.8rem, 5vw, 4.7rem)" as="h2">
+			<SCHeading fontsize="clamp(2.5rem, 5vw, 4.7rem)" as="h2">
 				Why choose us?
 			</SCHeading>
 
