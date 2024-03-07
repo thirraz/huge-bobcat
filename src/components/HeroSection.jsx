@@ -19,7 +19,12 @@ export default function HeroSection() {
 	return (
 		<SCHeroSection>
 			<SCHeroLeftSide>
-				<Logo absolute fill="#1f1f1f" widthAndHeight={[60, 60]} />
+				<Logo
+					absolute
+					fill="#1f1f1f"
+					widthAndHeight={[60, 60]}
+					// style={{ marginLeft: "var(--padding-desktop)" }}
+				/>
 
 				<SCTextContainer>
 					<SCHeading fontsize="clamp(2.2rem, 6vw, 5rem)">

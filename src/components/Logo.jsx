@@ -5,7 +5,7 @@ export default function Logo({ fill, absolute, widthAndHeight }) {
 			style={{
 				position: absolute ? "absolute" : "relative",
 				top: "3%",
-				marginLeft: "0.5rem"
+				marginLeft: absolute ? "var(--padding-desktop)" : "0.5rem"
 			}}
 			width={`${widthAndHeight[0]}px`}
 			height={`${widthAndHeight[1]}px`}
